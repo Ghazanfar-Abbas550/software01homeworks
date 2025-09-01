@@ -7,3 +7,10 @@ kilograms = total_grams//1000
 remaining_grams = total_grams%1000
 print("The weight in modern units: ")
 print(f'{kilograms} kilograms and {remaining_grams:.2f} grams')
+
+#Output
+#Enter talents: 3
+#Enter pounds: 9
+#Enter ots: 13.5
+#The weight in modern units: 
+#29.0 kilograms and 545.95 grams

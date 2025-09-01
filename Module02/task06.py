@@ -8,3 +8,7 @@ four_digit_code_2 = random.randint(1,6)
 four_digit_code_3 = random.randint(1,6)
 four_digit_code_4 = random.randint(1,6)
 print(four_digit_code_1, four_digit_code_2, four_digit_code_3, four_digit_code_4)
+
+#Output
+#9 5 7
+#6 4 6 3
