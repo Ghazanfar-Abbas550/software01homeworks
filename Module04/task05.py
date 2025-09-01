@@ -1,25 +1,20 @@
-import random
-
-# generate a random number between 1 and 10
-secret_number = random.randint(1, 10)
-
-# first guess
-guess = int(input("Guess the number (1–10): "))
-
-# loop until guessed correctly
-while guess != secret_number:
-    if guess < secret_number:
-        print("Too low! Try a higher number.")
-    else:
-        print("Too high! Try a lower number.")
-    guess = int(input("Guess the number (1–10): "))
-
-print("You guessed correctly!")
+username = "python"
+password = "rules"
+username_login = input("Enter username: ")
+password_login = input("Enter password: ")
+attempts = 5
+while (username_login != username or password_login != password) and attempts >0:
+    username_login = input("Enter username: ")
+    password_login = input("Enter password: ")
+    attempts = attempts -1
+if username_login == username and password_login == password:
+        print("Welcome")
+if attempts == 0:
+    print("Access Denied")
 
 # Output
-# Guess the number (1–10): 2
-# Too low! Try a higher number.
-# Guess the number (1–10): 4
-# Too high! Try a lower number.
-# Guess the number (1–10): 3
-# You guessed correctly!
+# Enter username: Ghazanfar
+# Enter password: Abbas
+# Enter username: python
+# Enter password: rules
+# Welcome
