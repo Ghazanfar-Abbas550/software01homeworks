@@ -41,7 +41,7 @@ class Building:
 
     def fire_alarm(self):
         print("Fire alarm triggered! Moving all elevators to the bottom floor.")
-        for i, elevator in enumerate(self.elevators, start=1):
+        for i, elevator in enumerate(self.elevators, start = 1):
             print(f"Moving elevator {i} to bottom floor...")
             elevator.go_to_floor(self.bottom_floor)
         print("All elevators are now at the bottom floor.")

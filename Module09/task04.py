@@ -23,7 +23,7 @@ cars = []
 for i in range(1,11):
     a = "ABC-"+str(i)
     b = random.randint(100, 200)
-    cars.append(Car(a,b))
+    cars.append(Car(a, b))
 
 for car in cars:
     print(car.registration_number)

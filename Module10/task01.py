@@ -23,7 +23,7 @@ class Elevator:
 
             elif target_floor < self.current_floor:
                 self.floor_down()
-        print('We are at floor',self.current_floor)
+        print('We are at floor', self.current_floor)
         print("We reached the floor")
 
 h = Elevator(0,20)

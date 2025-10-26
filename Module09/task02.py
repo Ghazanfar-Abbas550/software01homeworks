@@ -18,7 +18,7 @@ update_car1 = car1
 update_car1.accelerate(30)
 update_car1.accelerate(50)
 update_car1.accelerate(70)
-print(f"Car1 \nRegistration number: {car1.registration_number} \nMaximum speed in km/h: {car1.maximum_speed} \nCurrent speed: {car1.current_speed} \nTravelled distance: {car1.travelled_distance}")
+print(f"Car1 \nRegistration number: {car1.registration_number} \nMaximum speed in km/h: {car1.maximum_speed} \nCurrent speed: {car1.current_speed}\nTravelled distance: {car1.travelled_distance}")
 
 car2 = Car("ABD-124",142)
 update_car2 = car2

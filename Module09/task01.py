@@ -6,4 +6,4 @@ class Car:
         self.travelled_distance = travelled_distance
 
 car1 = Car("ABC-123",142)
-print(f"Car1\nRegistration number: {car1.registration_number} \nMaximum speed in km/h: {car1.maximum_speed} \nCurrent speed: {car1.current_speed} \nTravelled distance: {car1.travelled_distance}")
+print(f"Car1 \nRegistration number: {car1.registration_number} \nMaximum speed in km/h: {car1.maximum_speed} \nCurrent speed: {car1.current_speed} \nTravelled distance: {car1.travelled_distance}")

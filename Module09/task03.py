@@ -22,4 +22,4 @@ car1 = Car("ABC-123",142, travelled_distance=2000)
 update_car1 = car1
 update_car1.accelerate(60)
 car1.drive(1.5)
-print(f"Car1\nRegistration number: {car1.registration_number} \nMaximum speed in km/h: {car1.maximum_speed} \nCurrent speed: {car1.current_speed} \nTravelled distance: {car1.travelled_distance}")
+print(f"Car1\nRegistration number: {car1.registration_number} \nMaximum speed in km/h: {car1.maximum_speed} \nCurrent speed: {car1.current_speed}\nTravelled distance: {car1.travelled_distance}")
